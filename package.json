@@ -1,0 +1,32 @@
+{
+  "name": "knox",
+  "version": "1.0.0",
+  "description": "Accounting Web-App for John Knox",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Conchar/Knox.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Conchar/Knox/issues"
+  },
+  "homepage": "https://github.com/Conchar/Knox#readme",
+  "jspm": {
+    "dependencies": {
+      "hyperscript-helpers": "npm:hyperscript-helpers@^2.1.1",
+      "mercury": "npm:mercury@^14.1.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
